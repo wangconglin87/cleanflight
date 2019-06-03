@@ -2,9 +2,11 @@
 
 ![Cleanflight](docs/assets/cleanflight/cleanflight-logo-light-wide-1-240px.jpg)
 
-重要通知：2017年底将删除对基于STM32F1的飞行控制器的支持，包括NAZE，CC3D（原始）和CJMCU等飞行控制器。
+重要通知：2017年底将删除基于STM32F1的飞行控制器的支持，包括NAZE，CC3D（原始）和CJMCU等飞行控制器。
 
-Cleanflight是用于多轴旋翼机和固定翼的飞行控制器软件。Cleanflight项目以及Betaflight和iNav等相关项目被用于世界各地的大多数飞行控制器上。没有哪个软件被用于如此多的飞行控制器上！
+Cleanflight是用于多轴旋翼机和固定翼的飞行控制器软件。
+
+在世界各地，Cleanflight、Betaflight和iNav项目广泛用于各种飞行控制器上。
 
 * 如果你在寻找实验性的新功能，并愿意花费时间研究，请查看分支[betaflight fork](https://github.com/betaflight/betaflight)。
 * 如果你在寻找高级导航功能，请查看分支[iNav fork](https://github.com/iNavFlight/inav)。
@@ -12,18 +14,16 @@ Cleanflight是用于多轴旋翼机和固定翼的飞行控制器软件。Cleanf
 
 ## Features 特性
 
-* 具有高性能被大多数特技和竞速无人机驾驶者所信赖。
 * 支持F1/F3/F4/F7。
 * 支持加速度计、陀螺仪、气压计、罗盘。
 * 支持DSHOT、ONESHOT和PWM电调协议。
 * 支持彩色LED灯带。
-* 先进的板载遥测日志记录（黑匣子）。
-* 广泛支持各种接收机SBus、iBus、SumD、SumH、PPM、PWM、CRSF、JetiExBus。
-* 广泛支持各种遥测协议FrSky、SmartPort、S.Port、HoTT、iBus、LTM、MavLink、CRSF、SRXL。
-* 内置OSD，无需第三方支持即可使用。
-* 支持外部OSD副系统。
-* VTX支持RTC6705、Unify Pro(SmartAudio)、IRC Tramp等。
-* 等等。
+* 板载黑匣子。
+* 接收机SBus、iBus、SumD、SumH、PPM、PWM、CRSF、JetiExBus。
+* 日志协议FrSky、SmartPort、S.Port、HoTT、iBus、LTM、MavLink、CRSF、SRXL。
+* 内置OSD。
+* 支持外部OSD。
+* VTX支持RTC6705、Unify Pro(SmartAudio)、IRC Tramp。
 
 ## 安装及文档
 
@@ -56,7 +56,7 @@ There is a dedicated Cleanflight YouTube channel which has progress update video
 
 https://www.youtube.com/playlist?list=PL6H1fAj_XUNVBEcp8vbMH2DrllZAGWkt8
 
-国内没有，不会翻墙，谁可以搞到B站上
+国内没有，不会翻墙，谁可以搞到B站上？
 
 Please subscribe and '+1' the videos if you find them useful.
 
